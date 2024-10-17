@@ -9,7 +9,7 @@ Webscraping in Selenium, Matplotlib, Seaborn, Pandas
 
 
 # Hi, I'm Pourus! 👋 
-Passionate about all things formula 1, eletric vehicles & FOOTBALL. An avid Chelsea supporter (#KTBFFH) and worship the greats - CR7, Ronaldinho, Zinedine Zidane, Kevin DeBruyne and Sunil Chhetri. Also YES, I call it football since I'm originally from India and been playing as a CAM (Central Attacking Midfielder or Left Wing) since I got fired up watching "Goal" where John Abraham is a MVP of a humble club, Southhall United in England. (Indian movie reference) I was aiming to be a goalie, since I grew up oversize and could never move as quick, but voila!
+Passionate about all things formula 1, eletric vehicles & soccer. An avid Chelsea supporter (#KTBFFH) and worship the greats - CR7, Ronaldinho, Zinedine Zidane, Kevin DeBruyne and Sunil Chhetri. I'm originally from India and been playing as a CAM (Central Attacking Midfielder or Left Wing) since I got fired up watching "Goal" where John Abraham is a MVP of a humble club, Southhall United in England. (Indian movie reference) I was aiming to be a goalie, since I grew up oversize and could never move as quick, but voila!
 
 
 ## FAQ
