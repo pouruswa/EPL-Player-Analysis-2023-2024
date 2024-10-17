@@ -35,7 +35,7 @@ Step 6 : table.getattribute('outerHTML) retrieves the full HTML of the table mak
 
 
 ## Lessons Learned & Challenges
-####Lessons
+#### Lessons
 a) Webscraping via Selenium was easier compared to using BeautifulSoup : BeautifulSoup was not able to pick the correct table using the same ID that I used in Selenium to pick the Player Statistics table
 
 b) Multi-indexed columns in the table were saved as tuples in the dataframe, this made it difficult to work with the columns
