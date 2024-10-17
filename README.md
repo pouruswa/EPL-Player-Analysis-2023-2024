@@ -34,9 +34,14 @@ Step 6 : table.getattribute('outerHTML) retrieves the full HTML of the table mak
 - I exported the dataframe to csv and cleaned the rows manually in excel
 
 
-## Lessons Learned
-
+## Lessons Learned & Challenges
+####Lessons
 a) Webscraping via Selenium was easier compared to using BeautifulSoup : BeautifulSoup was not able to pick the correct table using the same ID that I used in Selenium to pick the Player Statistics table
 
-b) Multi-indexed columns in the table were saved as tuples in the dataframe 
+b) Multi-indexed columns in the table were saved as tuples in the dataframe, this made it difficult to work with the columns
+
+c) Every 26th row the table is picking up column headers as that's how they are listed in the table on the url. I am unable to skip those rows for all their occurences - hence I saved the dataframe in a csv and manually deleted the rows. I noticed this error when the dataframe I initially ingested showed all data types as 'objects', including the columns I know must be numeric
+
+d) matplotlib has a subplot function that displays two plots side-by-side in a single call. This was cool!
+
 
