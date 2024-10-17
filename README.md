@@ -1,5 +1,5 @@
 
-# English Premiere League - Player Data Analysis 2023-2024
+# English Premiere League - Player Data Analysis 2023-2024 ⚽⚽
 
 This project is an experimental analysis to understand the player performance visually for all the players in the English Premiere League during the 2023-2024 season. Through python's webscraping ability I scraped data via fbref.com and performed data cleaning and data visualization. Some findings were interesting!
 
