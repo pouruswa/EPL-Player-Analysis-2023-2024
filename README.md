@@ -26,12 +26,12 @@ Step 4 : Insert the url for the webpage in 'url'
 
 Step 5 : Find the appropriate table by ID ; for player data on the webpage use "stats_standard" as the ID
 
-Step 6 :table.getattribute('outerHTML) retrieves the full HTML of the table making it useful for parsing data to a dataframe like Pandas
+Step 6 : table.getattribute('outerHTML) retrieves the full HTML of the table making it useful for parsing data to a dataframe like Pandas
 
 #### Does the complete table data arrive without any issues?
 
 - After every 25(n) row, the table header is repeated
-- I exported the dataframe to csv and cleaned the columns manually in excel
+- I exported the dataframe to csv and cleaned the rows manually in excel
 
 
 ## Lessons Learned
