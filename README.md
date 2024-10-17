@@ -35,7 +35,7 @@ Step 6 : table.getattribute('outerHTML) retrieves the full HTML of the table mak
 
 
 ## Lessons Learned & Challenges
-#### Lessons
+#### Code Insights
 a) Webscraping via Selenium was easier compared to using BeautifulSoup : BeautifulSoup was not able to pick the correct table using the same ID that I used in Selenium to pick the Player Statistics table
 
 b) Multi-indexed columns in the table were saved as tuples in the dataframe, this made it difficult to work with the columns
@@ -44,4 +44,14 @@ c) Every 26th row the table is picking up column headers as that's how they are 
 
 d) matplotlib has a subplot function that displays two plots side-by-side in a single call. This was cool!
 
+e) Column normalization/Feature scaling was performed on 3 columns that need to be used to calculate an overall average for that player's playmaking ability. Since the column had same minimums (0) but different ranges, I brought them within 0-100 range using [(value-min)/range)
+
+f) Developed a new column called 'playmaking_ability'. This column was a weighted average of progressive passes, progressive carries and progressive passes received as playmakers like Kevin De Bruyne are those that make critical passes hold and take control of the game i.e. carry the ball forward and receive passes to make the game
+
+#### Analysis Insights
+a) Correlation Matrix (heatmap) helped me explore relationships with different columns - such as age having moderate correlation with yellow cards & progressive passes
+
+b) While plotting top assisting positions - after forwards, defenders made it to the second position of the maximum assists provided in a game - this was a revelation but was in line with actuality as players like Kyle Walker, Kieran Trippier, Reguilon playing the left back and right back positions come upfield during attacking plays and cross the ball directly into the box for Forwards to finish
+
+c) The url - fbref.com provided a glossary on what the columns meant that helped me with the analysis
 
